@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Places</string>
+    <string name="title_activity_maps">Place</string>
+
+    <string name="action_locate">localizar</string>
+    <string name="action_clear">Borrar todo</string>
+
+    <!-- Insert Place Dialog -->
+
+    <string name="insert_place_title">Nombre</string>
+    <string name="insert_place_description">Descripción</string>
+
+    <!-- Place detail -->
+    <string name="title_activity_place_deail">Detalle</string>
+    <string name="detail_place_name">Nombre</string>
+    <string name="detail_place_description">Descripción</string>
+    <string name="detail_place_address">Dirección</string>
+
+</resources>
