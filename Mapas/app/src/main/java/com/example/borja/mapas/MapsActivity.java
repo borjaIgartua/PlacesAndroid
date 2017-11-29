@@ -261,7 +261,11 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             return "Not found";
         }
 
-        Address bestMatch = (matches.isEmpty() ? null : matches.get(0));
+        if (matches.isEmpty()) {
+            return "Not found";
+        }
+
+        Address bestMatch = matches.get(0);
         return bestMatch.getAddressLine(0);
     }
 
